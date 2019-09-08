@@ -17,10 +17,6 @@ func (r *Square) SetHeight(h float64){
 	r.height = h
 }
 
-func (r *Square) SetWidth(w float64){}
-
-func (r *Square) SetRadius(s float64){}
-
 func (s Square)CalcArea() float64{
 	return s.GetHeight() * 3.14 //for example this is wrong
 }

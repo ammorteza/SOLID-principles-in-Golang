@@ -22,8 +22,6 @@ func (r *Rectangle) SetWidth(w float64){
 	r.width = w
 }
 
-func (r *Rectangle) SetRadius(s float64){}
-
 func (r Rectangle)CalcArea() float64{
 	return r.width * r.height
 }

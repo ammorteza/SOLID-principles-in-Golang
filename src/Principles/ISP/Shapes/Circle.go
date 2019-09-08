@@ -1,24 +1,16 @@
 package Shapes
 
 type Circle struct{
-	Shape
-	radius	float64
+		Shape
+		radius	float64
 }
 
 func (r *Circle) GetRadius()  float64{
-	return r.radius
+		return r.radius
 }
 
 func (r *Circle) Make(name string){
-	r.name = name
-}
-
-func (r *Circle) SetHeight(h float64){
-
-}
-
-func (r *Circle) SetWidth(w float64){
-
+		r.name = name
 }
 
 func (r *Circle) SetRadius(s float64){
