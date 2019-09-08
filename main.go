@@ -5,6 +5,7 @@ import (
 	"./src/Principles/OCP"
 	"./src/Principles/LSP"
 	"./src/Principles/ISP"
+	"./src/Principles/DIP"
 )
 
 func main(){
@@ -12,4 +13,5 @@ func main(){
 	OCP.Run()
 	LSP.Run()
 	ISP.Run()
+	DIP.Run()
 }

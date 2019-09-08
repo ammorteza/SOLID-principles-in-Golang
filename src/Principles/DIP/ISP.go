@@ -1,4 +1,4 @@
-package ISP
+package DIP
 
 import (
 	"./Shapes"
@@ -7,7 +7,7 @@ import (
 )
 
 func Run(){
-	fmt.Println("Interface Segregation principle (ISP)")
+	fmt.Println("Dependency Inversion principle (DIP)")
 
 	var circle Shapes.Circle
 	var square Shapes.Square
